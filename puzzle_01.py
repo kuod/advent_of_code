@@ -7,6 +7,4 @@ if __name__ == '__main__':
         input_file = f.read()
     up = input_file.count('(')
     down = input_file.count(')')
-    print up 
-    print down
-    print up - down
+    print "Net floors traveled:\t%s" % (up - down)
